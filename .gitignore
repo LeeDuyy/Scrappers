@@ -7,5 +7,5 @@ environment/
 
 # Bỏ qua file chotot.db
 storage/scrapper.db
-ssh.txt
-ssh.txt.pub
+id_rsa
+id_rsa.pub
