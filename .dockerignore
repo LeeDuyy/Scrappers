@@ -6,5 +6,5 @@ __pycache__/
 
 environment/
 storage/scrapper.db
-ssh.txt
-ssh.txt.pub
+id_rsa
+id_rsa.pub
