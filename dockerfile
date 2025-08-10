@@ -7,6 +7,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+ENV PYTHONPATH=/app
+
 VOLUME ["/mnt/scrappers/database"]
 
 CMD ["python", "main.py"]
