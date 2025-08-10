@@ -23,7 +23,7 @@ jobs:
         run: |
           docker build -t ${{ secrets.DOCKER_USERNAME }}/scappers:latest .
           docker push ${{ secrets.DOCKER_USERNAME }}/scappers:latest
-
+          working-directory: ./Tool
       - name: Deploy to Server via SSH
         uses: appleboy/ssh-action@v1.2.0
         with:
