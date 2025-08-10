@@ -1,0 +1,11 @@
+.# Bỏ qua tất cả thư mục __pycache__
+__pycache__/
+**/__pycache__/
+
+# Bỏ qua thư mục environment
+environment/
+
+# Bỏ qua file chotot.db
+storage/scrapper.db
+ssh.txt
+ssh.txt.pub

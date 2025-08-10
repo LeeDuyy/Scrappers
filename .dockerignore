@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+
+environment/
+storage/scrapper.db
+ssh.txt
+ssh.txt.pub
