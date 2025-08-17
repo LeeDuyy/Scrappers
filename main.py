@@ -64,8 +64,6 @@ if __name__ == "__main__":
             delay = random.randint(20 * 60, 40 * 60)
             print(f"⏳ Lần quét tiếp theo sau {delay // 60} phút...\n")
             time.sleep(delay)
-        
-            processor.process_new_posts()
             
         except Exception as e:
             print(f"❗ Lỗi trong quá trình xử lý: {e}")

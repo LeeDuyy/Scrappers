@@ -27,8 +27,6 @@ COPY requirements.txt .
 #     libasound2 \
 #     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir -r requirements.txt
-
 RUN playwright install --with-deps chromium
 
 RUN pip install --no-cache-dir -r requirements.txt
