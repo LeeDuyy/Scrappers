@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install -y \
     libgobject-2.0-0 \
     libnspr4 \
     libnss3 \
-    libnssutil3 \
     libdbus-1-3 \
     libgio-2.0-0 \
     libatk1.0-0 \
