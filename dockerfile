@@ -11,6 +11,4 @@ COPY . .
 
 ENV PYTHONPATH=/app
 
-VOLUME ["/mnt/scrappers/database"]
-
 CMD ["python", "-u", "main.py"]
