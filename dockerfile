@@ -13,4 +13,4 @@ ENV PYTHONPATH=/app
 
 VOLUME ["/mnt/scrappers/database"]
 
-CMD ["python", "main.py"]
+CMD ["python", "-u", "main.py"]
